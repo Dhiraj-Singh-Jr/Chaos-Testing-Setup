@@ -8,4 +8,4 @@ Chaos Engineering involves deliberately injecting failures into a system—such 
 
 However, it's important to note that Chaos Engineering isn't suitable for every company. For early-stage infrastructures with minimal complexity or predictable traffic, such tests may offer little value. Moreover, before running chaos experiments, teams must first understand their system’s baseline behavior under various load conditions—low, medium, and peak. Only then can failures be meaningfully simulated and analyzed.
 
-This project implements a **Chaos Testing setup** that targets specific services to validate their fault tolerance and recovery mechanisms, inspired by real-world use cases.[^1]: [PagerDuty – What is Chaos Testing?](https://www.pagerduty.com/resources/engineering/learn/what-is-chaos-testing/)
+This project implements a **Chaos Testing setup** that targets specific services to validate their fault tolerance and recovery mechanisms, inspired by real-world use cases.[PagerDuty – What is Chaos Testing?](https://www.pagerduty.com/resources/engineering/learn/what-is-chaos-testing/)
